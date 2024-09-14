@@ -1,0 +1,59 @@
+.DS_Store
+ml_monitoring/models/trained_model.joblib
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+.env/
+
+# Installers
+*.egg
+*.egg-info/
+dist/
+build/
+*.wheel
+
+# Testing
+.pytest_cache/
+.coverage
+nosetests.xml
+coverage.xml
+
+# MyPy
+.mypy_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# Docker
+**/docker-compose.override.yml
+.env
+.DS_Store
+**/Dockerfile
+
+# Logs
+logs/
+*.log
+
+# Prometheus / Grafana config and data
+prometheus_data/
+grafana_data/
+
+# Models
+ml_monitoring/models/
+!ml_monitoring/models/*.joblib
+*.pkl
+*.h5
+*.onnx
